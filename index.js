@@ -1,8 +1,7 @@
 const path=require("path");
 var express=require("express");
 var app=express();
-var PORT=8080;
-
+const port = process.env.PORT || 8080;
 app.get('/', function(req, res, next) { res.sendFile(path.join(__dirname, '/index.html'))
 });
 
@@ -13,8 +12,8 @@ app.get('/api/whoami',function(req,res){
 });
 
 
-app.listen(PORT,function(){
-  console.log('Server is listening port:'+PORT);
+app.listen(port,function(){
+  console.log('Server is listening port:'+port);
 });
 
 function getParse(request){
