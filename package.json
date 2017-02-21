@@ -1,0 +1,22 @@
+{
+  "name": "headerparse",
+  "version": "1.0.0",
+  "description": "freecodecamp request header parse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wadeyw/headerparse.git"
+  },
+  "author": "wade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wadeyw/headerparse/issues"
+  },
+  "homepage": "https://github.com/wadeyw/headerparse#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
